@@ -13,7 +13,7 @@ class Start : AppCompatActivity() {
 
         val handler = Handler(Looper.getMainLooper())
         handler.postDelayed({
-            val intent = Intent (this,DashboardActivity::class.java)
+            val intent = Intent (this,PemesananActivity::class.java)
             startActivity(intent)
             onDestroy()
         },5000)
